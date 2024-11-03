@@ -1,0 +1,12 @@
+ftfy 
+pyjwt 
+six
+torch
+torchvision 
+transformers
+sentencepiece
+beautifulsoup4 
+protobuf
+bitsandbytes
+accelerate>=0.26.0
+openai
