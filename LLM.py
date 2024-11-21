@@ -17,7 +17,7 @@ def initialize_llm_model(model_id="meta-llama/Llama-3.2-1B-Instruct"):
     )
     return pipe
 
-def generate_story(pipe, content):
+def generate_story(pipe, input_sentence, type="simple", order="input-first", max_tokens=128):
     """
     Generate a story based on the provided content.
     
@@ -28,6 +28,16 @@ def generate_story(pipe, content):
     Returns:
         str: Generated story content.
     """
+    if type == "simple":
+        prompt = "Write a three-sentence story according to the given sentence."
+    elif type == "detailed":
+        prompt = "You are a storyteller. You need to give a three-sentence story according to the sentence."
+
+    if order == "input-first":
+        content = f"{input_sentence} {prompt}"
+    else:
+        content = f"{prompt} {input_sentence}"
+
     messages = [
         {"role": "system", "content": "You are a pirate chatbot who always responds in pirate speak!"},
         {"role": "user", "content": content},
@@ -35,7 +45,7 @@ def generate_story(pipe, content):
 
     outputs = pipe(
         messages,
-        max_new_tokens=256,
+        max_new_tokens=max_tokens,
     )
 
     story = outputs[0]["generated_text"][-1]['content']
@@ -44,6 +54,46 @@ def generate_story(pipe, content):
     story = story[:3]
 
     return story
+
+
+def generate_story1(pipe, input_sentence, type="simple", order="input-first", max_tokens=128):
+    """
+    Generate a story based on the provided content.
+    
+    Args:
+        pipe: The pipeline object for text generation.
+        content: The content to be used for story generation.
+    
+    Returns:
+        str: Generated story content.
+    """
+    if type == "simple":
+        prompt = "Write a one-sentence story according to the given sentence."
+    elif type == "detailed":
+        prompt = "You are a storyteller. You need to give a one-sentence story according to the sentence."
+
+    if order == "input-first":
+        content = f"{input_sentence} {prompt}"
+    else:
+        content = f"{prompt} {input_sentence}"
+
+    messages = [
+        {"role": "system", "content": "You are a pirate chatbot who always responds in pirate speak!"},
+        {"role": "user", "content": content},
+    ]
+
+    outputs = pipe(
+        messages,
+        max_new_tokens=max_tokens,
+    )
+
+    story = outputs[0]["generated_text"][-1]['content']
+
+    story = re.split(r'(?<=[.!])\s+', story)
+    story = story[:1]
+
+    return story
+
 
 # # Example usage:
 # pipe = initialize_llm_model()

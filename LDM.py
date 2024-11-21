@@ -38,15 +38,31 @@ def initialize_ldm_model_quantization(model_id="stabilityai/stable-diffusion-3.5
     return pipeline
 
 # Define a function to generate an image
-def generate_image(pipeline, prompt, num_inference_steps=28, guidance_scale=4.5, max_sequence_length=512):
+def generate_image(pipeline, prompt, size, num_inference_steps=28, guidance_scale=4.5, max_sequence_length=512):
     image = pipeline(
         prompt=prompt,
         num_inference_steps=num_inference_steps,
         guidance_scale=guidance_scale,
         max_sequence_length=max_sequence_length,
+        height=size,
+        width=size,
     ).images[0]
     return image
 
+def generate_image3(pipeline, prompt, size, num_inference_steps=28, guidance_scale=4.5, max_sequence_length=512):
+    images = pipeline(
+        prompt=prompt,
+        num_inference_steps=num_inference_steps,
+        guidance_scale=guidance_scale,
+        max_sequence_length=max_sequence_length,
+        height=size,
+        width=size,
+        in_channels = 3,
+        out_channels = 3,
+    ).images
+    return images
+
+#https://huggingface.co/docs/diffusers/api/models/sd3_transformer2d#diffusers.SD3Transformer2DModel.in_channels
 # # Initialize the LDM model and get the single_image_pipeline
 # single_image_pipeline = initialize_ldm_model_quantization()
 
