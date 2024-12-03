@@ -1,0 +1,6 @@
+{
+    "prompt_type": "simple",
+    "prompt_order": "input-first",
+    "llm_tokens": 128,
+    "image_size": 512
+}
