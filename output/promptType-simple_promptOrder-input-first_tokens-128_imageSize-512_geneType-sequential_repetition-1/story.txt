@@ -1,0 +1,3 @@
+Paragraph 1: Mickey Mouse went to a western restaurant, ordered a roast chicken, and ate it.
+Paragraph 2: * Jack goes to a restaurant, orders a meal, and eats it.
+Paragraph 3: * The meal is a roast chicken.

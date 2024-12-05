@@ -13,3 +13,6 @@ openai
 pyDOE3
 urllib3
 websockets<12.0
+nltk
+sentence_transformers
+spacy

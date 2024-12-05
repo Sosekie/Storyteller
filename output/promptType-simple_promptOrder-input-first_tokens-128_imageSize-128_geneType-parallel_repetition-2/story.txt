@@ -1,0 +1,5 @@
+Paragraph 1: Mickey Mouse went to a western restaurant, ordered a roast chicken, and ate it.
+Paragraph 2: ## Step 1: Identify the main action and the setting
+The main action is Mickey Mouse going to a western restaurant.
+Paragraph 3: ## Step 2: Identify the object of the action
+The object of the action is a roast chicken.

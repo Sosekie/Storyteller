@@ -1,0 +1,7 @@
+{
+    "prompt_type": "simple",
+    "prompt_order": "input-first",
+    "llm_tokens": 64,
+    "image_size": 256,
+    "gene_type": "sequential"
+}

@@ -1,0 +1,18 @@
+{
+    "llm_time": 0.44979023933410645,
+    "ldm_time": 32.931674003601074,
+    "pipeline_time": 1964.451355457306,
+    "llm_metrics": {
+        "vocab_diversity": 0.6111111111111112,
+        "avg_sentence_length": 18.0,
+        "perplexity": 28.684846646455465
+    },
+    "story_context_fid": {
+        "context_fid": 0.02269160747528076,
+        "avg_similarity": 0.48699402809143066
+    },
+    "image_metrics": {
+        "avg_ssim": 0.18130283685271056,
+        "diversity": 16481.82826792973
+    }
+}

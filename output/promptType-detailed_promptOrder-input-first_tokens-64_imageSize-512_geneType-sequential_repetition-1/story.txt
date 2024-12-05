@@ -1,0 +1,3 @@
+Paragraph 1: Mickey Mouse went to a western restaurant, ordered a roast chicken, and ate it.
+Paragraph 2: In this case, the subject is Mickey Mouse, the verb is went, and the object is to a western restaurant.
+Paragraph 3: ## Step 2:

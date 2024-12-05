@@ -1,0 +1,3 @@
+Paragraph 1: Mickey Mouse went to a western restaurant, ordered a roast chicken, and ate it.
+Paragraph 2: What kind of restaurant is Mickey Mouse going to?
+Paragraph 3: Mickey Mouse is going to a western restaurant.
