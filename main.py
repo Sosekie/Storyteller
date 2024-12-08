@@ -124,7 +124,7 @@ for repetition in range(REPETITIONS):
             with open(prompt_file_path, "w") as prompt_file:
                 prompt_file.write(f"Input Prompt: {input_sentence}\n")
 
-            # Generate images based on gene_type
+            # Generate images based on gene_type0
             start_ldm_time = time.time()
             if experiment_config['gene_type'] == 'parallel':
                 # Generate all images in parallel
