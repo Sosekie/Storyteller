@@ -84,9 +84,7 @@
   - We saved experiment configurations, generated stories, images, and metrics as output files for further analysis.
 
 
-
-
-
+what is arrival rate, how many queqe, check variability, check M/M/k or M/G/k, dynamic load balancing: join-shortest-queqe
 
 
 
