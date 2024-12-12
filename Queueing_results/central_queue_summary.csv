@@ -1,0 +1,9 @@
+Inter_Arrival_Column,Total_Average_Waiting_Time,Worker_0_Average_Waiting_Time
+inter_arrival_time_M_low,19.235078254932127,19.235078254932127
+inter_arrival_time_G_low,9.153372075235845,9.153372075235845
+inter_arrival_time_M_near,73.5317332351922,73.5317332351922
+inter_arrival_time_G_near,22.983422328168093,22.983422328168093
+inter_arrival_time_M_high,664.0393403771657,664.0393403771657
+inter_arrival_time_G_high,597.369679402207,597.369679402207
+inter_arrival_time_M_ultra,946.8416940726813,946.8416940726813
+inter_arrival_time_G_ultra,938.2646415934895,938.2646415934895
