@@ -16,3 +16,5 @@ websockets<12.0
 nltk
 sentence_transformers
 spacy
+ipywidgets
+ace_tools
