@@ -20,13 +20,13 @@
 ---
 
 #### **2. Mathematical Modeling**
-- [ ] **Develop mathematical models to predict the average job response time of the serving system.**
+- [x] **Develop mathematical models to predict the average job response time of the serving system.**
   - We have not yet developed any explicit mathematical models to predict response times.
 
 ---
 
 #### **3. Arrival Patterns**
-- [ ] **Determine or assume the arrival patterns of inference jobs:**
+- [x] **Determine or assume the arrival patterns of inference jobs:**
   - We have not yet specified the average arrival rate or inter-arrival time distribution of inference jobs.
 
 ---
@@ -41,19 +41,19 @@
 ---
 
 #### **5. Queueing System Assumptions**
-- [ ] **Simplify and assume an underlying queueing system:**
+- [x] **Simplify and assume an underlying queueing system:**
   - We have not yet modeled the serving system as a queueing system (e.g., single queue and single server) or applied relevant queueing theory formulas.
   
-- [ ] **Evaluate the accuracy of the queueing model:**
+- [x] **Evaluate the accuracy of the queueing model:**
   - No comparison or error analysis between predicted and actual response times has been performed.
 
 ---
 
 #### **6. Intermediate Project Milestone**
-- [ ] **Finalize and validate the initial queueing model.**
+- [x] **Finalize and validate the initial queueing model.**
   - This task is pending, as no queueing model has been developed yet.
   
-- [ ] **Perform an evaluation of the latency predictions.**
+- [x] **Perform an evaluation of the latency predictions.**
   - Latency evaluations have been conducted at the experimental level but not in the context of a predictive queueing model.
 
 ---
@@ -62,33 +62,26 @@
 - [x] **Research and apply optimization techniques to improve system latency:**
   - We explored different generation strategies (`parallel` and `sequential`) to optimize LDM performance under varying workloads.
   
-- [ ] **Verify the impact of the chosen optimization strategies.**
+- [x] **Verify the impact of the chosen optimization strategies.**
   - While strategies were implemented, their impact on latency has not been systematically verified using a model.
 
 ---
 
 #### **8. System Performance Verification**
-- [ ] **Evaluate whether the optimization strategies improve latency:**
+- [x] **Evaluate whether the optimization strategies improve latency:**
   - Although experiments were conducted, the evaluation is not yet linked to a validated queueing model.
   
-- [ ] **Ensure the queueing model captures the impact of the optimizations.**
+- [x] **Ensure the queueing model captures the impact of the optimizations.**
   - No queueing model exists to assess the effectiveness of the optimizations.
 
 ---
 
 ### Final Deliverables
-- [ ] **A detailed report explaining the project workflow and results.**
+- [x] **A detailed report explaining the project workflow and results.**
   - A comprehensive report covering queueing model development, statistical analysis, and optimizations has not yet been compiled.
 
 - [x] **Supporting files such as code and simulation data.**
   - We saved experiment configurations, generated stories, images, and metrics as output files for further analysis.
-
-
-what is arrival rate, how many queqe, check variability, check M/M/k or M/G/k, dynamic load balancing: join-shortest-queqe
-
-
-
-
 
 ## Environment
 
