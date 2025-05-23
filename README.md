@@ -2,7 +2,7 @@
 
 ## Environment
 
-```
+```bash
 conda create --name storyteller python==3.10
 conda activate storyteller
 pip install -r requirements.txt
