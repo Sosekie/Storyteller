@@ -95,16 +95,6 @@ pip install -U diffusers
 
 pip install --upgrade bitsandbytes
 
-## Huggingface Token:
-
-huggingface-cli login
-
-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
-
-## Lydia's feedback:
-
-Wow you have proposed a very elaborate generation service. Lets try stay in more conceise scope and think about the following questions.  In terms of context of generation service: what are the key difference between the real time part and existing solution shown in your fig 1? I think the key differences are three inferences methods, which result into different coherence in quality and inference time.  In the phase one, you shall build a simple linear model to get the job execution times based on different inference methods and other factors. The second phase can be simply decide which inference method to use based on the "number" of oustanding jobs.  You actually don't need to try those methods mentioned in 3.6. Of course, you can but chose one direction and go deeper.  Try to setup basic sekleton of your system asap such that we can discuss the optimization aspects in the mideterm. 
-
 ## What to do next:
 
 1. build a baseline based on sequential generation.
