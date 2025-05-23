@@ -1,5 +1,17 @@
 # Storyteller
 
+## Environment
+
+conda create --name storyteller python==3.10
+
+conda activate storyteller
+
+pip install -r requirements.txt
+
+pip install -U diffusers
+
+pip install --upgrade bitsandbytes
+
 ## Project Requirements and Steps
 
 ### Project Objective
@@ -82,18 +94,6 @@
 
 - [x] **Supporting files such as code and simulation data.**
   - We saved experiment configurations, generated stories, images, and metrics as output files for further analysis.
-
-## Environment
-
-conda create --name storyteller python==3.10
-
-conda activate storyteller
-
-pip install -r requirements.txt
-
-pip install -U diffusers
-
-pip install --upgrade bitsandbytes
 
 ## What to do next:
 
