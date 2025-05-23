@@ -1,5 +1,9 @@
 # Storyteller
 
+## Report
+
+[Storyteller: Enhancing Interactive Storytelling via Real-Time Text and Image Generation without Additional Data](https://github.com/Sosekie/Storyteller/blob/main/Storyteller%20Enhancing%20Interactive%20Storytelling%20via%20Real-Time%20Text%20and%20Image%20Generation%20without%20Additional%20Data.pdf)
+
 ## Environment
 
 ```bash
