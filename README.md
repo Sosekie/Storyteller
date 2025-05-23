@@ -2,13 +2,13 @@
 
 ## Environment
 
-''' 
+```
 conda create --name storyteller python==3.10
 conda activate storyteller
 pip install -r requirements.txt
 pip install -U diffusers
 pip install --upgrade bitsandbytes
-'''
+```
 
 ## Project Requirements and Steps
 
